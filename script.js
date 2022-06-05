@@ -22,7 +22,7 @@ function displayData(data){
             <div class="picture"><img src="${imgSource}""></div>
             <div class="heading"><h2>${titleSource}</h2></div>
             <div class="year"><p>aasta: ${yearSource}</div>
-            <div class="url"><a class="url" href="${urlSource}" target=”_blank”>vaata lähemalt</a></div>
+            <div class="url"><button class="urlBtn"><a class="url" href="${urlSource}" target=”_blank”>vaata lähemalt</a></button></div>
         </div>
     `
     }

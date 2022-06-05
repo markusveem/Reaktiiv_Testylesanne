@@ -28,10 +28,7 @@ body{
     padding:5px;
 }
 
-.url:hover{
-    color: #3e92cc;
-    text-decoration: none;
-}
+
 
 @media screen and (min-width: 900px) {
     
@@ -43,8 +40,27 @@ body{
 }
 
 
-
+.url:hover{
+    text-decoration: none;
+}
 
 .heading{
     padding: 5px;
+}
+
+
+.urlBtn{
+    background-color: black;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.urlBtn:hover{
+    transform: scale(1.08);
+
+
+}
+
+.background:nth-child(1) .heading h2{
+    font-size: 1.7em;
 }
