@@ -1,7 +1,7 @@
 const row = document.querySelector(".row")
 
-let localJson = "https://reaktiiv.com/projects.json";
-//let localJson = "projectData.json";
+//let localJson = "https://reaktiiv.com/projects.json";
+let localJson = "projectData.json";
 
 
 
